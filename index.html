@@ -1,1 +1,32 @@
-aa
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="0; url=https://bienfaitenergies.be">
+<title>Bienfait Energies</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:system-ui,sans-serif;background:#09090b;color:#fafafa;display:flex;align-items:center;justify-content:center;min-height:100vh;}
+.card{display:none;text-align:center;padding:48px 40px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:20px;max-width:360px;width:90%;}
+img{width:72px;height:72px;border-radius:14px;object-fit:cover;margin:0 auto 20px;}
+h1{font-size:1.3rem;font-weight:800;margin-bottom:6px;}
+h1 span{color:#F97316;}
+p{color:#71717a;font-size:0.85rem;margin-bottom:28px;}
+a{display:inline-flex;align-items:center;gap:8px;background:#F97316;color:#000;font-weight:700;font-size:0.85rem;padding:13px 28px;border-radius:10px;text-decoration:none;transition:all 0.2s;}
+a:hover{background:#fb923c;transform:translateY(-1px);}
+</style>
+</head>
+<body>
+<script>
+window.location.replace("https://bienfaitenergies.be");
+setTimeout(function(){document.querySelector('.card').style.display='block';},500);
+</script>
+<div class="card">
+  <img src="logo.jpeg" alt="Logo" onerror="this.style.display='none'">
+  <h1>BIENFAIT <span>ENERGIES</span></h1>
+  <p>La redirection n'a pas fonctionné automatiquement.</p>
+  <a href="https://bienfaitenergies.be">Accéder au site →</a>
+</div>
+</body>
+</html>
